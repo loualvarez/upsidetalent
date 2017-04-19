@@ -280,6 +280,27 @@ footer svg {
        line-height: 1.3em;
      }
 
+     footer {
+       padding-top: 0
+     }
+
+     footer p {
+       width: 100%;
+       display: block;
+       text-align: center;
+     }
+
+     footer span {
+       margin: 2px 0 2px 0px;
+       float: inherit;
+       width: 100%;
+       font-size: 11px;
+     }
+
+     .logo-footer {
+       display: none;
+     }
+
      .navbar {
        margin: 30px 0px 0px 0px;
      }
@@ -295,6 +316,13 @@ footer svg {
      .images-module:first-child {
        margin-bottom: 30px;
      }
+
+     .cta-module {
+       display: block;
+       margin-top: 0px;
+     }
+
+
 
      .m-r-150, .m-r-250 {
        margin-right: 0;
