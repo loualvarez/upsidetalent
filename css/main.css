@@ -15,6 +15,14 @@ h1, h3 {
   line-height: 1.2em;
 }
 
+a {
+  color: var(--main-text-color);
+}
+
+a:hover, a:focus {
+  color: var(--main-color);
+}
+
 b {
   color: var(--main-color);
 }
@@ -120,6 +128,8 @@ footer svg {
 :root {
 
   --main-color: #0D2CCD;
+  --labels-color: #5A5A5A;
+  --main-text-color: #4F4F4F;
   --background-modules: #000;
 
   --text-module-color: #FFF;
@@ -136,6 +146,15 @@ footer svg {
 
 .navbar {
   margin: 65px 0 160px 0;
+}
+
+.navbar li {
+  font-size: 15px;
+  color: #4F4F4F;
+}
+
+.nav>li>a:hover, .nav>li>a:focus {
+  background-color: transparent;
 }
 
 .navbar li:last-child {
@@ -192,6 +211,8 @@ footer svg {
   width: 350px;
   border: 1px solid #E2E2E2;
   border-radius: 5px;
+  background: #FFFFFF;
+  box-shadow: 0 3px 2px 0 rgba(239,239,239,0.50);
 }
 
 #index-form ul li {
@@ -205,6 +226,7 @@ footer svg {
 
 #index-form ul li label {
   display: block;
+  color: var(--labels-color);
 }
 
 #index-form ul li input {
@@ -228,3 +250,59 @@ footer svg {
   background-image: linear-gradient(to right, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url('../img/companies.jpg');
   /*background-image: url('../img/companies.jpg');*/
 }
+
+
+/* ==========================================================================
+   responsive
+   ========================================================================== */
+
+   /* Large Devices, Wide Screens */
+   @media only screen and (max-width : 1200px) {
+
+   }
+
+   /* Medium Devices, Desktops */
+   @media only screen and (max-width : 992px) {
+
+   }
+
+   /* Small Devices, Tablets */
+   @media only screen and (max-width : 768px) {
+
+   }
+
+   /* Extra Small Devices, Phones */
+   @media only screen and (max-width : 480px) {
+
+     h1 {
+       font-size: 24px;
+       text-align: center;
+       line-height: 1.3em;
+     }
+
+     .navbar {
+       margin: 30px 0px 0px 0px;
+     }
+
+     .headline {
+       height: 200px;
+     }
+
+     .headline h1 {
+       margin-left: 0;
+     }
+
+     .images-module:first-child {
+       margin-bottom: 30px;
+     }
+
+     .m-r-150, .m-r-250 {
+       margin-right: 0;
+     }
+
+   }
+
+   /* Custom, iPhone Retina */
+   @media only screen and (max-width : 320px) {
+
+   }
