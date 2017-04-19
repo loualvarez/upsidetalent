@@ -266,6 +266,85 @@ footer svg {
 
 
 /* ==========================================================================
+   Search Results Page
+   ========================================================================== */
+
+#large-search-module {
+  border: 1px solid #E2E2E2;
+  border-radius: 5px;
+  background: #FFFFFF;
+  box-shadow: 0 3px 2px 0 rgba(239,239,239,0.50);
+}
+
+#large-search-module ul li {
+  float: left;
+  padding: 15px 20px;
+  border-right: 1px solid #E2E2E2;
+}
+
+#large-search-module ul li:last-child {
+  margin: 0;
+  border: none;
+  padding: 13px 14px;
+}
+
+#large-search-module ul li:nth-child(6) {
+  border:none;
+}
+
+#large-search-module label {
+  display: block;
+}
+
+#large-search-module input {
+  border: none;
+  width: 132px;
+}
+
+#large-search-module .button-main {
+  width: 103px;
+  padding: 14px 0;
+}
+
+#tabbed-search-results {
+  margin-top: 80px;
+}
+
+#tabbed-search-results .nav-tabs>li>a {
+  font-family: var(--secondary-font);
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--labels-color);
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:hover,
+.nav-tabs>li.active>a:focus {
+  border-bottom-color: #0D2CCD;
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:hover,
+.nav-tabs>li.active>a:focus {
+  border: 1px solid transparent;
+  color: #0D2CCD !important;
+  border-bottom: 2px solid #0D2CCD;
+}
+
+.nav-tabs>li>a:hover {
+  border: 1px solid transparent;
+}
+
+
+/* ==========================================================================
+   Search Results Page — End
+   ========================================================================== */
+
+
+
+
+/* ==========================================================================
    responsive
    ========================================================================== */
 

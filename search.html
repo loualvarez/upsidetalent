@@ -64,90 +64,62 @@
     </nav>
 
     <div class="container">
+      <div class="row" id="large-search-module">
+        <form class="" action="index.html" method="post">
+          <ul>
+            <li>
+              <label for="industry">Industry</label>
+              <input onfocus="if(this.value == 'Industry Name') { this.value = ''; }" type="text" name="" value="Industry Name" id="">
+            </li>
+            <li>
+              <label for="role">Role</label>
+              <input onfocus="if(this.value == 'Any Role') { this.value = ''; }" type="text" name="" value="Any Role" id="">
+            </li>
+            <li>
+              <label for="seniority">Seniority</label>
+              <input onfocus="if(this.value == 'Seniority Level') { this.value = ''; }" type="text" name="" value="Seniority Level" id="">
+            </li>
+            <li>
+              <label for="industry">Industry</label>
+              <input onfocus="if(this.value == 'Industry Name') { this.value = ''; }" type="text" name="" value="Industry Name" id="">
+            </li>
+            <li>
+              <label for="role">Role</label>
+              <input onfocus="if(this.value == 'Any Role') { this.value = ''; }" type="text" name="" value="Any Role" id="">
+            </li>
+            <li>
+              <label for="seniority">Seniority</label>
+              <input onfocus="if(this.value == 'Seniority Level') { this.value = ''; }" type="text" name="" value="Seniority Level" id="">
+            </li>
 
-      <!-- Main row for the header content -->
-      <div class="row p-b-60">
-        <div class="col-md-6">
-          <div class="headline">
-            <h1><b>Looking for a recruiter?</b> <br>Start your search on Upside Talent.</h1>
-          </div>
-        </div>
-
-        <div class="col-md-6">
-          <div class="center-horizontally" id="index-form">
-            <form class="" action="index.html" method="post">
-              <ul>
-                <li>
-                  <label for="industry">Industry</label>
-                  <input onfocus="if(this.value == 'Industry Name') { this.value = ''; }" type="text" name="" value="Industry Name" id="">
-                </li>
-                <li>
-                  <label for="role">Role</label>
-                  <input onfocus="if(this.value == 'Any Role') { this.value = ''; }" type="text" name="" value="Any Role" id="">
-                </li>
-                <li>
-                  <label for="seniority">Seniority</label>
-                  <input onfocus="if(this.value == 'Seniority Level') { this.value = ''; }" type="text" name="" value="Seniority Level" id="">
-                </li>
-                <li>
-                  <button class="button-main" type="button" name="button">Search</button>
-                </li>
-              </ul>
-            </form>
-          </div>
-        </div>
+            <li>
+              <button class="button-main" type="button" name="button">Search</button>
+            </li>
+          </ul>
+        </form>
       </div>
 
-      <!-- Main row for the header content -->
+      <div class="row" id="tabbed-search-results">
+        <div>
 
-      <hr>
+          <!-- Nav tabs -->
+          <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Active Listings</a></li>
+            <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Active Jobs</a></li>
+            <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Past Jobs</a></li>
+            <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Invoices</a></li>
+          </ul>
 
-      <div class="row text-center features">
-        <h1>The best way to find a recruiter</h1>
-        <p class="p-t-10">Powered by Artificial Intelligence</p>
-        <div class="p-t-60">
-
-          <div class="row">
-
-          <div class="col-md-7 text-left">
-            <div class="images-module" id="recruiters-module">
-              <div class="center-vertically">
-                <small class="p-b-10">for recruiters</small>
-                <h3 class="m-r-250">The fastest way to your next search gig.</h3>
-              </div>
-            </div>
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="home">...</div>
+            <div role="tabpanel" class="tab-pane" id="profile">...</div>
+            <div role="tabpanel" class="tab-pane" id="messages">...</div>
+            <div role="tabpanel" class="tab-pane" id="settings">...</div>
           </div>
 
-          <div class="col-md-5 text-left">
-            <div class="images-module" id="companies-module">
-              <div class="center-vertically">
-                <small class="p-b-10">for companies</small>
-                <h3 class="m-r-150">The best place to find your next recruiter.</h3>
-              </div>
-            </div>
-          </div>
-
-          </div>
-
-          <div class="row">
-          <div class="col-md-12">
-            <div class="cta-module">
-              <div class="col-md-9 text-left">
-                <h3>Are you a recruiter?</h3>
-                <p class="p-t-5">Sign up with Upside Talent for the fastest way to your next search gig.</p>
-              </div>
-              <div class="col-md-3 text-left">
-                <button class="button-main button-light" type="button" name="button">Sign Up Now</button>
-              </div>
-            </div>
-          </div>
-          </div>
         </div>
       </div>
-
-
-
-
     </div>
 
     <footer>
