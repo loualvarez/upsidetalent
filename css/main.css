@@ -148,6 +148,21 @@ footer svg {
   margin: 2px 0 0 10px;
 }
 
+.navbar-brand {
+  color: #333;
+}
+
+.headline {
+  height: 355px;
+}
+
+.headline h1 {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 80px;
+}
+
 .features {
   margin: 80px 0px;
 }
