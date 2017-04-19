@@ -73,6 +73,11 @@ button {
   width: 100%;
 }
 
+.button-light:hover {
+  background: var(--text-module-color);
+  color: var(--main-color);
+}
+
 input:focus,
 select:focus,
 textarea:focus,
