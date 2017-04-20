@@ -522,6 +522,13 @@ footer svg {
        margin: 0 30px;
      }
 
+     .nav-tabs {
+       display: none;
+     }
+     #tabbed-search-results .header-text {
+       margin-top: 0px;
+     }
+     
      #large-search-module {
        padding: 0;
        margin: 40px 0px 0px 0px;
