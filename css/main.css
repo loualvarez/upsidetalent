@@ -110,6 +110,7 @@ footer svg {
    ========================================================================== */
 
 .p-t-60 {  padding-top: 60px; }
+.m-t-60 {  margin-top: 60px; }
 .p-b-60 {  padding-bottom: 60px; }
 .p-b-10 {  padding-bottom: 10px; }
 .p-t-10 {  padding-top: 10px; }
@@ -345,6 +346,78 @@ footer svg {
   font-size: 22px;
 }
 
+#tabbed-search-results .results-card-content {
+  width: 100%;
+  padding: 40px;
+}
+
+#tabbed-search-results .profile-pic {
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  border-radius: 50px;
+}
+
+#tabbed-search-results .profile-pic img {
+  height: 60px;
+}
+
+#tabbed-search-results .action-buttons {
+  padding-top: 12px;
+}
+
+#tabbed-search-results .action-buttons button {
+  background: transparent;
+  color: var(--main-color);
+  border: 1px solid var(--main-color);
+  border-radius: 5px;
+  font-family: var(--secondary-font);
+  padding: 5px 0px;
+  width: 100px;
+}
+
+#tabbed-search-results .action-buttons button:hover {
+  background: var(--main-color);
+  color: #fff;
+}
+
+#tabbed-search-results .results-card-content-text {
+  padding: 5px 40px 0 81px;
+  font-weight: lighter;
+  line-height: 1.8em;
+}
+
+#tabbed-search-results .user-info-rate {
+  margin: 12px 0 0 20px;
+
+}
+
+#tabbed-search-results .user-info-rate h1 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+#results-card {
+  border: 1px solid #EAEAEA;
+  border-radius: 5px;
+  padding: 0px;
+}
+
+#job-info {
+  color: #fff;
+  padding: 40px;
+  border-right: 1px solid #EAEAEA;
+  border-radius: 5px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('../img/recruiters.jpg');
+}
+
+#job-info button {
+  width: 150px;
+}
 
 /* ==========================================================================
    Search Results Page — End
@@ -406,6 +479,24 @@ footer svg {
        margin: 30px 0px 0px 0px;
      }
 
+     .navbar .pull-right {
+       float: none !important;
+     }
+
+     .navbar-collapse {
+       background: var(--main-color);
+       margin-top: 20px;
+     }
+
+     .navbar-nav>li>a {
+       text-shadow: none;
+       color: #fff;
+     }
+
+     .navbar li:last-child {
+       margin-left: 0;
+     }
+
      .headline {
        height: 200px;
      }
@@ -423,10 +514,53 @@ footer svg {
        margin-top: 0px;
      }
 
-
-
      .m-r-150, .m-r-250 {
        margin-right: 0;
+     }
+
+     .tab-content {
+       margin: 0 30px;
+     }
+
+     #large-search-module {
+       padding: 0;
+       margin: 40px 0px 0px 0px;
+     }
+
+     #large-search-module .button-main {
+       width: 100%;
+     }
+
+     #large-search-module ul li {
+       width: 100%;
+       border: none;
+       border-bottom: 1px solid #eaeaea;
+     }
+
+     #large-search-module ul li:nth-child(6) {
+       border-bottom: 1px solid #eaeaea;
+     }
+
+     #tabbed-search-results .results-card-content {
+       padding: 15px 0;
+     }
+
+     #tabbed-search-results .results-card-content-text {
+       padding: 10px 0 15px 81px;
+     }
+
+     #tabbed-search-results .action-buttons {
+       float: left !important;
+       padding: 10px 0 10px 81px;
+     }
+
+     #job-info {
+       text-align: center;
+       border-top-right-radius: 5px;
+       border-bottom-right-radius: 5px;
+       border-bottom-right-radius: 0px;
+       border-bottom-left-radius: 0px;
+       border: 0;
      }
 
    }
