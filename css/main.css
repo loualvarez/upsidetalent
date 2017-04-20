@@ -336,6 +336,15 @@ footer svg {
   border: 1px solid transparent;
 }
 
+#tabbed-search-results .header-text {
+  width: 100%;
+  margin-top: 50px;
+}
+
+#tabbed-search-results .header-text h1 {
+  font-size: 22px;
+}
+
 
 /* ==========================================================================
    Search Results Page — End
